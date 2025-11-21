@@ -23,7 +23,9 @@ for(let i=0; i<todo.length; i++){
     todo.splice(idx, 1);
     console.log("task deleted");
   } else {
-    console.log("wrong req");
+    console.log("wrong request");
   }
   req = prompt("please enter your request");
 }
+   
+q
